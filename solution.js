@@ -50,7 +50,7 @@ console.log(boogieNightsStrLast+boogieNightsStr.slice(1,2)+boogieNightsStrFirst)
 const firstName = 'Maria';
 const city = 'Berlin';
 const job = 'teacher';
-console.log('My name is', firstName+'.','I live in' , city, 'and I am a', job+'.');
+console.log(`My name is ${firstName}. I live in ${city} and I am a ${job}.`);
 
 //10
 
@@ -58,3 +58,8 @@ const foxStr = 'the quick brown fox';
 const firstLetter = foxStr[0].toUpperCase();
 const restLetters = foxStr.substring(1);
 console.log(firstLetter+restLetters);
+
+// const firstName= 'Jenny';
+// const city = 'London';
+// const job = 'Banker';
+// console.log(`My name is ${firstName}. I live in ${city} and I am a ${job}.`);
