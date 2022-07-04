@@ -17,7 +17,7 @@ console.log(earthlingsStrLowerCase);
 
 //4
 
-const jsStr = 'JavaScripct'
+const jsStr = 'JavaScript'
 console.log(jsStr.substring(3,6));
 
 //5
